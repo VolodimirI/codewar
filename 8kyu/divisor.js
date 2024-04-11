@@ -9,7 +9,8 @@ function divisibleBy(numbers, divisor) {
             if (numbers[i]%divisor != 0) {
             console.log("a", "i=",i, numbers[i], "j=",j, result[j-1])}
             else {result[j] = numbers[i]
-            console.log("b", "i=",i, numbers[i], "j=",j, result[j])}
+            console.log("b", "i=",i, numbers[i], "j=",j, result[j])
+            j = j + 1}
         }
   return result;
 }
