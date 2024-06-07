@@ -1,7 +1,7 @@
 const reverseSeq = n => {
     let mas = [];
-    for (let i = n - 1; i => 0; i--) {
-        mas[i-1] = n - i;
+    for (let i = n; i > 0; i--) {
+        mas.push(i);
     }
     return mas;
   };
